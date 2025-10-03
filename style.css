@@ -43,7 +43,7 @@
     transition: box-shadow .4s;
 }
 html{
-    width: 120%;
+    width: 100%;
     overflow-x: hidden;
  }
 .nav-logo{
