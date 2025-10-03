@@ -43,7 +43,7 @@
     transition: box-shadow .4s;
 }
 html{
-    width: 100%;
+    width: 26.2rem;
     overflow-x: hidden;
  }
 .nav-logo{
@@ -1090,9 +1090,6 @@ color: var(--black-color);
     display: grid;
     gap: 1.5rem;
  }
- .section{
-    padding-block: 5rem 1rem;
- }
  .section-title, .section-subtitle{
 text-align: center;
 font-family: var(--second-font);
@@ -1113,9 +1110,7 @@ font-family: var(--second-font);
 .active-link{
     color: var(--white-color);
 }
-section {
-    scroll-margin-top: 80px; 
-  }
+
   
   
 
