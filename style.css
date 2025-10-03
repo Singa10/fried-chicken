@@ -42,7 +42,10 @@
     z-index: var(--z-fixed);
     transition: box-shadow .4s;
 }
-
+html{
+    width: 120%;
+    overflow-x: hidden;
+ }
 .nav-logo{
     display:inline-flex;
     align-items: center;
@@ -375,7 +378,7 @@ border: solid black;
     width: 82.5%;
 }
 .combo .section-title span{
-    color: var(--first-color);
+    color: var(--white-color);
 }
 .section-title span{
     color: var(--black-color);
@@ -429,7 +432,7 @@ border: solid black;
     margin-top: 2rem;  
 }
 .combo-info{
-    background-color: var(--white-color);
+    background-color: var(--first-color);
     padding: .75rem;
     border-radius: .5rem;
     font-size: var(--small-font-size);
@@ -437,11 +440,15 @@ border: solid black;
 .combo-info b{
 
     font-family: var(--second-font);
-    color: var(--first-color);
+    color: var(--black-color);
     padding: 1.25rem;
     border-radius: 1rem;
     font-size: var(--h1-font-size);
     font-family: var(--second-font);
+}
+.combo-info span{
+    color: var(--white-color);
+    padding-left: 2rem;
 }
 .combo-numbers{
     position: absolute;
@@ -985,7 +992,63 @@ transform: translateY(-.25rem);
     zoom: 1.4;
    } 
  }
-
+ @media screen and (max-width:512px){
+.home-data a{
+    width: 8rem;
+    font-size: 0.8rem;
+}
+.about-data a{
+    width: 8rem;
+    font-size: 0.8rem; 
+}
+.about-tooltip1,
+.about-tooltip2{
+    width: 3rem;
+    font-size: 0.8rem;
+}
+.about-tooltip2{
+    margin-right: 0;
+}
+.about-tooltip1{
+    margin-left: -.6rem;
+}
+.about-image2{
+    margin-left: 3rem; 
+}
+.order h2{
+   margin-right: 4rem;
+}
+.combo-image{
+    width: 90%;
+    margin-right: 5rem;
+}
+.combo-numbers{
+    margin-right: 1rem;   
+}
+.combo-titles h1{
+    margin-right: .5rem;
+    font-size: 2.5rem;   
+}
+.combo-info b{
+  font-size: .7rem;
+  padding-left: 0; 
+}
+.combo-data h2{
+    font-size: .7rem;  
+}
+.combo-info span{
+    padding: 0;
+}
+ }
+ @media screen and (max-width:563px){
+    .combo-info b{
+        font-size: .7rem;
+        padding-left: 0; 
+      }
+      .combo-info span{
+        padding-left: 0;  
+      }
+ }
  html{
     scroll-behavior: smooth;
  }
@@ -1046,10 +1109,7 @@ font-family: var(--second-font);
  main{padding-top: var(--header-height);
     overflow: hidden;
  }
-html{
-    width: 120%;
-    overflow-x: hidden;
-}
+
 .active-link{
     color: var(--white-color);
 }
