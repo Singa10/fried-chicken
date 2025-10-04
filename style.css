@@ -270,7 +270,7 @@ html{
     justify-content: center; 
     background-color: var(--black-color);
     color: var(--white-color);
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
     font-weight: var(--font-semi-bold);
     border-radius: 0.75rem;
     transition: box-shadow 0.4s;
@@ -825,7 +825,7 @@ transform: translateY(-.25rem);
       .about-tooltip2{
         font-size: var(--h3-font-size);
         right: -4rem;
-        bottom: 10rem;
+        bottom: 17rem;
       }
       .order-container{
         grid-template-columns: 740px;
